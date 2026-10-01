@@ -15,7 +15,8 @@ Run that command from the folder containing `index.html`, then open http://local
 ## Personalise
 
 - `index.html`: biography, suggested skills, project copy, and GitHub links.
-- `script.js`: add your confirmed email address and LinkedIn URL to `profile` at the top. The links appear automatically. No contact form pretends to send messages.
+- `script.js`: confirmed email, phone number, and optional LinkedIn URL in `profile`. Phone links use Nigeria's `+234` country code. The links appear automatically.
+- `neural-engine.js`: interactive 3D globe artwork, orbital particles, and animation controls.
 - `styles.css`: colours, typography, and responsive layouts.
 - `assets/health-dashboard.jpg`: a copy of the actual project dashboard screenshot.
 

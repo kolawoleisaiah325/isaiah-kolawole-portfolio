@@ -1,5 +1,5 @@
 // Add confirmed personal links here. Empty values are intentionally not displayed.
-const profile = { email: 'gkola67@gmail.com', linkedin: '' };
+const profile = { email: 'gkola67@gmail.com', phone: '08112324547', linkedin: '' };
 
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
@@ -92,7 +92,8 @@ function addContact(label, text, href) {
   link.append(content, arrow); contactContainer.append(link);
 }
 if (profile.email) addContact('EMAIL ME', profile.email, 'mailto:' + profile.email);
-if (profile.email) document.querySelector('.contact-caption').textContent = 'Have an idea in mind? Send me an email, or explore what I’m building on GitHub.';
+if (profile.phone) addContact('GIVE ME A CALL', profile.phone, 'tel:+234' + profile.phone.slice(1));
+if (profile.email) document.querySelector('.contact-caption').textContent = 'Have an idea in mind? Send me an email, give me a call, or explore what I’m building on GitHub.';
 if (profile.linkedin) addContact('LET’S CONNECT', 'LinkedIn', profile.linkedin);
 
 const sectionObserver = new IntersectionObserver(entries => {
@@ -106,43 +107,3 @@ const sectionObserver = new IntersectionObserver(entries => {
   });
 }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
 document.querySelectorAll('main section[id]').forEach(section => sectionObserver.observe(section));
-
-// Decorative network: no external libraries, requests, or tracking.
-const canvas = document.querySelector('#neural-canvas');
-const ctx = canvas.getContext('2d');
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-let width = 0, height = 0, animationId = 0, isVisible = true;
-const nodes = Array.from({length: 46}, (_, i) => {
-  const angle = i * 2.39996;
-  const radius = .24 + (i % 8) * .027;
-  return { x: .5 + Math.cos(angle) * radius, y: .5 + Math.sin(angle) * radius, phase: i * .7, radius: i % 5 === 0 ? 2.5 : 1.5 };
-});
-function draw(time = 0) {
-  ctx.clearRect(0, 0, width, height);
-  ctx.strokeStyle = '#a34a3e12'; ctx.lineWidth = .6;
-  for (let x = 20; x < width; x += 27) { ctx.beginPath(); ctx.moveTo(x, 45); ctx.lineTo(x, height - 45); ctx.stroke(); }
-  for (let y = 45; y < height - 30; y += 27) { ctx.beginPath(); ctx.moveTo(20, y); ctx.lineTo(width - 20, y); ctx.stroke(); }
-  const points = nodes.map(n => ({x: n.x * width + Math.sin(time * .0002 + n.phase) * 5, y: n.y * height + Math.cos(time * .0002 + n.phase) * 5, node: n}));
-  points.forEach((p, i) => {
-    points.slice(i + 1).forEach(q => {
-      const distance = Math.hypot(p.x - q.x, p.y - q.y);
-      if (distance < width * .24) {
-        ctx.strokeStyle = `rgba(225,100,79,${.24 * (1 - distance / (width * .24))})`;
-        ctx.lineWidth = .8; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
-      }
-    });
-    const glow = .5 + .3 * Math.sin(time * .001 + p.node.phase);
-    ctx.beginPath(); ctx.arc(p.x, p.y, p.node.radius, 0, Math.PI * 2); ctx.fillStyle = `rgba(245,117,95,${glow})`; ctx.fill();
-    if (i % 5 === 0) { ctx.beginPath(); ctx.arc(p.x, p.y, 6, 0, Math.PI * 2); ctx.strokeStyle = '#ed6e4c33'; ctx.stroke(); }
-  });
-  if (!reducedMotion.matches && !document.hidden && isVisible) animationId = requestAnimationFrame(draw);
-}
-function restart() { cancelAnimationFrame(animationId); draw(performance.now()); }
-new ResizeObserver(() => {
-  const rect = canvas.getBoundingClientRect(); width = rect.width; height = rect.height;
-  const ratio = Math.min(devicePixelRatio || 1, 2);
-  canvas.width = width * ratio; canvas.height = height * ratio; ctx.setTransform(ratio, 0, 0, ratio, 0, 0); restart();
-}).observe(canvas);
-new IntersectionObserver(entries => { isVisible = entries[0].isIntersecting; restart(); }).observe(canvas);
-document.addEventListener('visibilitychange', restart);
-reducedMotion.addEventListener('change', restart);
