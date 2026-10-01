@@ -1,0 +1,2206 @@
+{
+    "data_label":  "synthetic demonstration data",
+    "source_repository":  "https://github.com/kolawoleisaiah325/health-programme-analytics",
+    "records":  [
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-01",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  100
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-02",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-03",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  92
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-04",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  91
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-05",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  91
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-06",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  88
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-07",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  87
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-08",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  101
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-09",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  86
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-10",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  102
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-11",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  110
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2023-12",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  98
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-01",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-02",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  99
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-03",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  90
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-04",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  91
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-05",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  100
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-06",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  84
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-07",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  101
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-08",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  90
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-09",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  101
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-10",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-11",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  104
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2024-12",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  111
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-01",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  115
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-02",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  105
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-03",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  84
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-04",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  89
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-05",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-06",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  94
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-07",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  0
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-08",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  88
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-09",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  90
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-10",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  94
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-11",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  100
+                    },
+                    {
+                        "facility_id":  "F001",
+                        "facility_name":  "Demo Facility 01",
+                        "area":  "Demo Area A",
+                        "period":  "2025-12",
+                        "target_doses":  112,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  99
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-01",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  121
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-02",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  112
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-03",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  107
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-04",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  107
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-05",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  104
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-06",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-07",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  110
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-08",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  113
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-09",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  99
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-10",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  108
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-11",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  111
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2023-12",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-01",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  118
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-02",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  120
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-03",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  114
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-04",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  102
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-05",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  98
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-06",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  97
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-07",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  103
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-08",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  105
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-09",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  98
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-10",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  103
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-11",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  112
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2024-12",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  121
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-01",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  117
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-02",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-03",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  107
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-04",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  101
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-05",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  2,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-06",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  107
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-07",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  102
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-08",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  104
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-09",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  98
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-10",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  101
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-11",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F002",
+                        "facility_name":  "Demo Facility 02",
+                        "area":  "Demo Area A",
+                        "period":  "2025-12",
+                        "target_doses":  124,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  116
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-01",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-02",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  135
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-03",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  120
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-04",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  116
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-05",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-06",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  115
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-07",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  118
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-08",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  109
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-09",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  115
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-10",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  109
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-11",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  131
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2023-12",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  133
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-01",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  129
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-02",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-03",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  114
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-04",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-05",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  118
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-06",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  114
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-07",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-08",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  120
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-09",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  122
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-10",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  112
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-11",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  129
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2024-12",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-01",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  128
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-02",
+                        "target_doses":  136,
+                        "reporting_status":  "missing",
+                        "submission_count":  0,
+                        "accepted_doses":  null
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-03",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-04",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  116
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-05",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-06",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  121
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-07",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-08",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  120
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-09",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  119
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-10",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  115
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-11",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F003",
+                        "facility_name":  "Demo Facility 03",
+                        "area":  "Demo Area A",
+                        "period":  "2025-12",
+                        "target_doses":  136,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  137
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-01",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  148
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-02",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  135
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-03",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  121
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-04",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-05",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  124
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-06",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-07",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  133
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-08",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  122
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-09",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  132
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-10",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  132
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-11",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2023-12",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  149
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-01",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  141
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-02",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  150
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-03",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  120
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-04",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-05",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  137
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-06",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  128
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-07",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  130
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-08",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-09",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  129
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-10",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  133
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-11",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  138
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2024-12",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-01",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  133
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-02",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  141
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-03",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  136
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-04",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  125
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-05",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  136
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-06",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  123
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-07",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  129
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-08",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  136
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-09",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  126
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-10",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  124
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-11",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  144
+                    },
+                    {
+                        "facility_id":  "F004",
+                        "facility_name":  "Demo Facility 04",
+                        "area":  "Demo Area B",
+                        "period":  "2025-12",
+                        "target_doses":  148,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  138
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-01",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  162
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-02",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  161
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-03",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  132
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-04",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  142
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-05",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-06",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  132
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-07",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  135
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-08",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  143
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-09",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  141
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-10",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  139
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-11",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  146
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2023-12",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  152
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-01",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  163
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-02",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-03",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  134
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-04",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-05",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  134
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-06",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  149
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-07",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  136
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-08",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  136
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-09",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-10",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  149
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-11",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  150
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2024-12",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  153
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-01",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  161
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-02",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  158
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-03",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  138
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-04",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  149
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-05",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  138
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-06",
+                        "target_doses":  160,
+                        "reporting_status":  "invalid",
+                        "submission_count":  1,
+                        "accepted_doses":  null
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-07",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  144
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-08",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  143
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-09",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  146
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-10",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  148
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-11",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  159
+                    },
+                    {
+                        "facility_id":  "F005",
+                        "facility_name":  "Demo Facility 05",
+                        "area":  "Demo Area B",
+                        "period":  "2025-12",
+                        "target_doses":  160,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  148
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-01",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  164
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-02",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  164
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-03",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  146
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-04",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  154
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-05",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  144
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-06",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  162
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-07",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  161
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-08",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  151
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-09",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  162
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-10",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  151
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-11",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  157
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2023-12",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  159
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-01",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  158
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-02",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  164
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-03",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  146
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-04",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  145
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-05",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  154
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-06",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  146
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-07",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  160
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-08",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  151
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-09",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  152
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-10",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  159
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-11",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  163
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2024-12",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  174
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-01",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  161
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-02",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  175
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-03",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  162
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-04",
+                        "target_doses":  172,
+                        "reporting_status":  "missing",
+                        "submission_count":  0,
+                        "accepted_doses":  null
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-05",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  151
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-06",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  159
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-07",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  157
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-08",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  150
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-09",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-10",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  147
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-11",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  170
+                    },
+                    {
+                        "facility_id":  "F006",
+                        "facility_name":  "Demo Facility 06",
+                        "area":  "Demo Area B",
+                        "period":  "2025-12",
+                        "target_doses":  172,
+                        "reporting_status":  "accepted",
+                        "submission_count":  1,
+                        "accepted_doses":  168
+                    }
+                ],
+    "diagnostics":  {
+                        "data_label":  "synthetic demonstration forecast",
+                        "target":  "doses delivered (service volume), not latent demand",
+                        "training_period":  "2023-01 through 2024-12",
+                        "holdout_period":  "2025-01 through 2025-12",
+                        "scored_holdout_months":  [
+                                                      "2025-01",
+                                                      "2025-03",
+                                                      "2025-05",
+                                                      "2025-07",
+                                                      "2025-08",
+                                                      "2025-09",
+                                                      "2025-10",
+                                                      "2025-11",
+                                                      "2025-12"
+                                                  ],
+                        "excluded_incomplete_holdout_months":  [
+                                                                   "2025-02",
+                                                                   "2025-04",
+                                                                   "2025-06"
+                                                               ],
+                        "imputed_facility_months_for_refit":  3,
+                        "candidate_scores":  {
+                                                 "seasonal_naive":  {
+                                                                        "mae":  31.78,
+                                                                        "wape_percent":  4.19
+                                                                    },
+                                                 "ridge_trend_seasonal":  {
+                                                                              "mae":  33.89,
+                                                                              "wape_percent":  4.47
+                                                                          },
+                                                 "holt_winters":  {
+                                                                      "mae":  27.38,
+                                                                      "wape_percent":  3.61
+                                                                  }
+                                             },
+                        "selected_model":  "holt_winters",
+                        "illustrative_error_band_doses":  32.63,
+                        "limitations":  "Only nine complete synthetic holdout months are scored. The same holdout selected the model, so its reported error may be optimistic. Independent future validation is still needed. The band is a descriptive error range, not a calibrated prediction interval. Missing 2025 facility values are filled from 2024 for the final fit. Delivered doses may understate true demand."
+                    }
+}

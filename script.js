@@ -18,6 +18,15 @@ navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', 
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 document.querySelector('#year').textContent = new Date().getFullYear();
 
+const nextTools = new Set(['PyTorch', 'Hugging Face', 'RAG & Embeddings', 'FastAPI', 'Docker']);
+document.querySelectorAll('.skill-card').forEach(card => {
+  const suggested = nextTools.has(card.querySelector('h3').textContent);
+  const badge = document.createElement('span');
+  badge.className = 'experience-badge' + (suggested ? ' to-explore' : '');
+  badge.textContent = suggested ? 'TO EXPLORE' : 'PROJECT USE';
+  card.append(badge);
+});
+
 document.querySelectorAll('[data-filter]').forEach(button => {
   button.addEventListener('click', () => {
     const filter = button.dataset.filter;

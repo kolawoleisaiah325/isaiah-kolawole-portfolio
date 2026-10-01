@@ -1,0 +1,29 @@
+ISAIAH KOLAWOLE
+ML/AI Engineer | Portfolio Profile
+
+Email: gkola67@gmail.com
+Phone: 08112324547 (+234 811 232 4547)
+GitHub: https://github.com/kolawoleisaiah325
+Portfolio: https://isaiah-kolawole-portfolio.vercel.app/
+
+FOCUS
+Building data pipelines, forecasting models, and AI applications that turn data into useful decisions, with a focus on reproducibility, data quality, and inspectable evidence.
+
+FEATURED PROJECT: HEALTH PROGRAMME ANALYTICS
+A reproducible Python pipeline for a synthetic facility network, combining reporting validation, a Streamlit dashboard, forecasting comparisons, and evidence-checked AI draft briefs.
+
+- Distinguishes accepted counts, missing reports, and invalid submissions across 216 facility-months, retaining an audit trail.
+- Compares three forecasting methods using a time-based holdout. Holt-Winters recorded MAE 27.38 doses and WAPE 3.61% across nine complete synthetic months.
+- Supports a PostgreSQL schema and tested SQL views, alongside CSV outputs used by the dashboard.
+- Uses local Ollama generation with citation and numeric checks, a deterministic fallback, and human review.
+
+All data is synthetic. These figures do not establish real-world programme impact. The same holdout selected and evaluated the model; independent validation remains necessary.
+
+TOOLS DEMONSTRATED IN THE PROJECT
+Python, pandas, NumPy, scikit-learn, statsmodels, SQL/PostgreSQL, Streamlit, Ollama, Git/GitHub.
+Project use is not a proficiency rating or professional experience claim.
+
+EXPLORE
+Case study: https://isaiah-kolawole-portfolio.vercel.app/case-study.html
+Interactive demo: https://isaiah-kolawole-portfolio.vercel.app/demo.html
+Source: https://github.com/kolawoleisaiah325/health-programme-analytics

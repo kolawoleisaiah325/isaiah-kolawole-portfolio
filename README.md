@@ -1,29 +1,38 @@
-# Isaiah Kolawole — ML/AI portfolio
+﻿# Isaiah Kolawole — ML/AI portfolio
 
-A responsive, static portfolio inspired by the supplied reference: dark colours, red accents, large outlined type, and About, Skills, Projects, and Contact sections. No build step or package installation required.
+Responsive static HTML, CSS and JavaScript portfolio with an interactive neural globe. No build step or dependencies.
+
+Production: https://isaiah-kolawole-portfolio.vercel.app/
+
+## Pages
+
+- `index.html`: portfolio, skills, projects, and contact details.
+- `case-study.html`: architecture, recorded evaluation, and limitations.
+- `demo.html` / `demo.js`: synthetic analytics demo with period/area filters, responsive chart, reporting-status table, pagination, and CSV export.
+- `profile.html`: factual portfolio profile with print/save-as-PDF styling and a plain-text download.
+- `assets/social-preview.png`: share preview.
 
 ## Preview
 
-Open `index.html` directly, or serve this folder:
+From this repository run `python -m http.server 3000 --bind 127.0.0.1`, then open http://localhost:3000. Serve over HTTP for the demo's JSON fetch; opening its HTML directly as a file is not supported.
 
-```powershell
-python -m http.server 3000 --bind 127.0.0.1
-```
+## Data and claims
 
-Run that command from the folder containing `index.html`, then open http://localhost:3000.
+`assets/demo-data.json` contains selected fields from the public project's `data/processed/facility_month_status.csv` and `data/forecast/model_diagnostics.json`:
+https://github.com/kolawoleisaiah325/health-programme-analytics
 
-## Personalise
+All records describe fictional facilities. Across 216 expected facility-months, 213 are accepted, two missing, and one invalid. Reporting completeness is 214/216 = 99.1%; accepted doses total 26,945. Missing and invalid counts remain null, while an accepted zero stays zero. Achievement uses targets for accepted records only.
 
-- `index.html`: biography, suggested skills, project copy, and GitHub links.
-- `script.js`: confirmed email, phone number, and optional LinkedIn URL in `profile`. Phone links use Nigeria's `+234` country code. The links appear automatically.
-- `neural-engine.js`: interactive 3D globe artwork, orbital particles, and animation controls.
-- `styles.css`: colours, typography, and responsive layouts.
-- `assets/health-dashboard.jpg`: a copy of the actual project dashboard screenshot.
+Operational filters affect metrics and chart. Record view affects the table and CSV download, including every matching row across pages. Downloads label synthetic data. Forecast scores remain programme-wide: three methods, trained on 2023–2024 and scored on nine complete 2025 months. The same holdout selected the model; independent validation is needed. The website does not run Python, PostgreSQL, or the LLM.
 
-The skill list is suggested copy, not a claim of verified proficiency. Review it before publishing. The three work cards describe the existing health analytics project and two of its modules, not three independent projects. All programme data is synthetic. No experience figures, employers, credentials, portrait, or contact details have been invented.
+Skills are labeled PROJECT USE or TO EXPLORE based on evidence in the featured project. Project use is not a proficiency rating. The work cards feature one project and two modules. No education, employers, credentials or real-world programme impact are invented.
 
-Google Fonts is the only external page resource; system fonts act as fallbacks. The neural animation respects reduced-motion preferences and pauses when offscreen. Skills can be filtered, project details open in keyboard-accessible dialogs, and the mobile navigation supports Escape.
+## Contact and accessibility
 
-## Deploy
+Confirmed email and phone are set in `script.js` and the printable profile. LinkedIn is omitted. Google Fonts is the only external resource, with system fallbacks. Reduced-motion is respected; the globe pauses offscreen. Navigation, dialogs, filters and downloads are keyboard accessible.
 
-Upload the contents of this directory to any static web host. For this standalone repository on Vercel, use the repository root (`./`), framework preset **Other**, and leave the build command empty. The website has not been deployed automatically.
+## Deployment and rollback
+
+Private repository: `kolawoleisaiah325/isaiah-kolawole-portfolio`. Vercel deploys pushes to `main`, using framework **Other**, root `./`, and no build command.
+
+The version before the October 2 improvements is saved as tag `before-portfolio-improvements-2026-10-02`, commit `2f46fc8`. Restore by reverting the improvement commit(s), reviewing the diff, and pushing the revert to `main`. Preserve subsequent user changes; do not force-push or reset shared history.
