@@ -44,7 +44,8 @@
     data.evaluation.hybrid.cases.forEach(record=>{
       const detail=document.createElement('details'), summary=document.createElement('summary'), text=document.createElement('p'), meta=document.createElement('small');
       summary.textContent=record.question;text.textContent=record.answer.text;meta.textContent=`Recorded local AI output · ${record.answer.status} · ${record.answer.seconds}s generation`;
-      detail.append(summary,text,meta);byId('code-recorded-answers').append(detail);
+      detail.append(summary,text,meta);byId('code-recorded-answers')?.append(detail);
     });
+    if(byId('code-search-form').hasAttribute('data-autosearch') && input.value.trim()) search(input.value);
   }).catch(()=>{status.textContent='The sample could not be loaded. Please refresh or download the recorded data below.';});
 })();

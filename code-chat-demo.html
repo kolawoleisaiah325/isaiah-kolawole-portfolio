@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore actual Python source with Isaiah Kolawole’s interactive Code Chat keyword-search demo.">
+  <title>Code Chat · Source Explorer — Isaiah Kolawole</title>
+  <link rel="icon" href="favicon.svg"><link rel="stylesheet" href="styles.css"><script src="code-chat.js" defer></script>
+</head>
+<body class="code-demo-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="source-header wrap"><a class="source-brand" href="index.html#projects">Code Chat<span>.</span></a><a class="detail-back" href="code-chat.html">Read the case study ↗</a></header>
+  <main id="main" class="source-main wrap">
+    <div class="source-intro"><div><p class="eyebrow">DEVELOPER TOOLS / SOURCE EXPLORER</p><h1>Go straight to <em>the source.</em></h1></div><p>Explore a small Python codebase.<br>Ask a question. Inspect the evidence.</p></div>
+    <div class="source-workspace">
+      <div class="source-workspace-bar"><span><i aria-hidden="true"></i> DEMO SHOP / PYTHON</span><span>05 FILES <b aria-hidden="true">·</b> KEYWORD RETRIEVAL</span></div>
+      <div class="source-workspace-grid">
+        <section class="source-question-panel" aria-labelledby="source-question-heading">
+          <p class="eyebrow">01 / ASK</p><h2 id="source-question-heading">What would you<br> like to understand?</h2>
+          <form id="code-search-form" data-autosearch><label for="code-question">Question about the bundled shop</label><input id="code-question" type="text" maxlength="2000" value="What is the international delivery estimate?" disabled><button id="code-search-button" class="button button-primary" disabled>Find source <span aria-hidden="true">↗</span></button></form>
+          <div class="source-suggestions" aria-label="Example questions"><span>TRY A QUESTION</span><button data-question="When is domestic shipping free?" disabled>Shipping rules <span aria-hidden="true">↗</span></button><button data-question="How does WELCOME10 calculate the discount?" disabled>Coupon calculation <span aria-hidden="true">↗</span></button><button data-question="Can an order be cancelled after payment?" disabled>Order cancellation <span aria-hidden="true">↗</span></button></div>
+          <p id="code-search-status" role="status" aria-live="polite">Loading the bundled code…</p>
+        </section>
+        <section class="source-evidence-panel" aria-labelledby="source-evidence-heading"><div class="source-evidence-heading"><p class="eyebrow">02 / INSPECT</p><h2 id="source-evidence-heading">The evidence.</h2></div><div id="code-search-results" aria-live="polite"></div></section>
+      </div>
+    </div>
+    <div class="source-demo-note"><p><span aria-hidden="true">●</span> Working browser demo · Authored sample code · No LLM used</p><div class="case-actions"><a class="text-link" href="code-chat.html#approach">Explore the full local AI app ↗</a></div></div>
+    <noscript><p>This source search needs JavaScript. <a href="code-chat.html">Read the case study</a> or <a href="assets/code-chat-demo.json">download the sample code.</a></p></noscript>
+  </main>
+</body>
+</html>

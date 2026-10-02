@@ -39,8 +39,14 @@ The version before the October 2 improvements is saved as tag `before-portfolio-
 
 ## GitHub Code Chat feature
 
-`code-chat.html` features the second project and a browser-only BM25 search over its authored fictional shop. `assets/code-chat-demo.json` contains actual sample excerpts and the recorded local-model evaluation. `code-chat.js` searches those excerpts and displays recorded outputs without calling an LLM. App screenshots were captured from the working Streamlit app, including a real locally generated answer. The case study documents citation limitations and observed model errors.
+`code-chat.html` features the second project and a browser-only BM25 search over its authored fictional shop. `assets/code-chat-demo.json` contains actual sample excerpts and the recorded local-model evaluation. `code-chat.js` searches those excerpts and displays recorded outputs without calling an LLM. The gallery and case-study previews are complete captures of the working browser demos. `code-chat-demo.html` presents the same sample search as a dedicated source explorer; the full AI app remains local. Earlier Streamlit captures remain in assets as historical evidence. The case study documents citation limitations and observed model errors.
 
 RAG & Embeddings is now labeled PROJECT USE based on this project. The health project modules are described in its case study, and the main gallery shows two distinct projects.
 
 Before this feature, the portfolio is tagged `before-code-chat-feature-2026-10-02` (`370d4db`). Revert the feature commit to restore that version.
+
+## Project preview framing
+
+Project images retain their natural proportions instead of using a fixed aspect ratio with cover cropping. The gallery links to full-size captures, and labels are outside the image. `assets/health-workspace.jpg` includes the complete metrics and service-delivery chart; `assets/code-chat-workspace.jpg` shows the full source-explorer workspace. Both were captured in the browser from working demos.
+
+Before these changes, the portfolio is tagged `before-project-preview-refresh-2026-10-02` (`90f1a77`). Revert the preview-refresh commit to restore that version.
