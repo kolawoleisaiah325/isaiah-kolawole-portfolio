@@ -36,3 +36,11 @@ Confirmed email and phone are set in `script.js` and the printable profile. Link
 Private repository: `kolawoleisaiah325/isaiah-kolawole-portfolio`. Vercel deploys pushes to `main`, using framework **Other**, root `./`, and no build command.
 
 The version before the October 2 improvements is saved as tag `before-portfolio-improvements-2026-10-02`, commit `2f46fc8`. Restore by reverting the improvement commit(s), reviewing the diff, and pushing the revert to `main`. Preserve subsequent user changes; do not force-push or reset shared history.
+
+## GitHub Code Chat feature
+
+`code-chat.html` features the second project and a browser-only BM25 search over its authored fictional shop. `assets/code-chat-demo.json` contains actual sample excerpts and the recorded local-model evaluation. `code-chat.js` searches those excerpts and displays recorded outputs without calling an LLM. App screenshots were captured from the working Streamlit app, including a real locally generated answer. The case study documents citation limitations and observed model errors.
+
+RAG & Embeddings is now labeled PROJECT USE based on this project. The health project modules are described in its case study, and the main gallery shows two distinct projects.
+
+Before this feature, the portfolio is tagged `before-code-chat-feature-2026-10-02` (`370d4db`). Revert the feature commit to restore that version.

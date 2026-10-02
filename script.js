@@ -18,7 +18,7 @@ navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', 
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 document.querySelector('#year').textContent = new Date().getFullYear();
 
-const nextTools = new Set(['PyTorch', 'Hugging Face', 'RAG & Embeddings', 'FastAPI', 'Docker']);
+const nextTools = new Set(['PyTorch', 'Hugging Face', 'FastAPI', 'Docker']);
 document.querySelectorAll('.skill-card').forEach(card => {
   const suggested = nextTools.has(card.querySelector('h3').textContent);
   const badge = document.createElement('span');
@@ -43,51 +43,6 @@ document.querySelectorAll('[data-filter]').forEach(button => {
     document.querySelector('.skill-status').textContent = `Showing ${count} ${filter === 'all' ? '' : button.textContent.trim() + ' '}skills.`;
   });
 });
-
-const repository = 'https://github.com/kolawoleisaiah325/health-programme-analytics';
-const projectDetails = {
-  health: {
-    label: 'DATA & MACHINE LEARNING / PORTFOLIO DEMO',
-    title: 'Health Programme Analytics',
-    description: 'A reproducible demonstration of a health programme analytics workflow, using six fictional facilities and 36 months of synthetic source data.',
-    points: ['Validates incoming reports and distinguishes missing, invalid, duplicate, and zero submissions.', 'Uses a PostgreSQL warehouse design and a Streamlit dashboard to explore facility performance.', 'Combines service-volume forecasting and evidence-checked reporting. This is a portfolio demonstration, with no patient data or claimed real-world programme impact.'],
-    url: repository
-  },
-  forecast: {
-    label: 'HEALTH ANALYTICS / FORECASTING MODULE',
-    title: 'Beyond the baseline.',
-    description: 'A forecasting module within Health Programme Analytics. It models delivered doses, rather than unique patients, vaccine demand, or health outcomes.',
-    points: ['Compares seasonal naive, Ridge trend-and-seasonality, and Holt-Winters methods.', 'Trains on 2023–2024 and evaluates on complete months in 2025 using a time-based holdout.', 'Documents data assumptions and treats forecast bands as illustrative. The card chart is a design illustration, not model results.'],
-    url: repository + '/blob/main/src/forecast_service_volume.py'
-  },
-  report: {
-    label: 'HEALTH ANALYTICS / AI REPORTING MODULE',
-    title: 'AI with a paper trail.',
-    description: 'An AI-assisted reporting module within Health Programme Analytics that turns a structured evidence pack into a draft programme brief.',
-    points: ['Supports a local Ollama model, with a deterministic fallback when the model is unavailable.', 'Checks source citations and reported numbers against the evidence pack.', 'Keeps outputs labelled as drafts for human review, with clear synthetic-data context.'],
-    url: repository + '/blob/main/src/report_assistant.py'
-  }
-};
-const dialog = document.querySelector('#project-dialog');
-let dialogTrigger;
-document.querySelectorAll('[data-project]').forEach(button => button.addEventListener('click', () => {
-  const project = projectDetails[button.dataset.project];
-  dialogTrigger = button;
-  document.querySelector('#dialog-label').textContent = project.label;
-  document.querySelector('#dialog-title').textContent = project.title;
-  document.querySelector('#dialog-description').textContent = project.description;
-  const points = document.querySelector('#dialog-points');
-  points.replaceChildren(...project.points.map(point => { const li = document.createElement('li'); li.textContent = point; return li; }));
-  document.querySelector('#dialog-link').href = project.url;
-  dialog.showModal();
-  document.body.classList.add('modal-open');
-}));
-document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', event => {
-  const rect = dialog.getBoundingClientRect();
-  if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) dialog.close();
-});
-dialog.addEventListener('close', () => { document.body.classList.remove('modal-open'); dialogTrigger?.focus(); });
 
 const contactContainer = document.querySelector('#additional-contact');
 function addContact(label, text, href) {

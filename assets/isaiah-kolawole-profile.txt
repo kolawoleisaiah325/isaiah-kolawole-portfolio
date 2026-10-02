@@ -27,3 +27,11 @@ EXPLORE
 Case study: https://isaiah-kolawole-portfolio.vercel.app/case-study.html
 Interactive demo: https://isaiah-kolawole-portfolio.vercel.app/demo.html
 Source: https://github.com/kolawoleisaiah325/health-programme-analytics
+
+FEATURED PROJECT: GITHUB CODE CHAT
+Local AI codebase assistant with an offline bundled example, keyword retrieval, local embeddings, hybrid rank fusion, and Ollama-generated explanations.
+- Reads public repositories at a pinned commit and preserves file/line references.
+- Shows source excerpts behind answers; checks citation numbers and handles unavailable models.
+- Includes 20 authored evaluation questions, recorded method comparisons, documented model errors, and automated tests.
+Local engineering prototype. Evaluation on five authored files is not evidence of general repository performance or answer accuracy.
+Case study and source search: https://isaiah-kolawole-portfolio.vercel.app/code-chat.html
