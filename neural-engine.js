@@ -54,7 +54,7 @@
   }
   function updateToggle() {
     toggle.setAttribute('aria-pressed', String(paused));
-    toggle.setAttribute('aria-label', paused ? 'Play neural animation' : 'Pause neural animation');
+    toggle.setAttribute('aria-label', paused ? 'Play canvas animation' : 'Pause canvas animation');
     toggle.querySelector('.toggle-label').textContent = paused ? 'PLAY' : 'PAUSE';
     toggle.querySelector('.toggle-glyph').textContent = paused ? '▷' : 'Ⅱ';
     panel.classList.toggle('animation-paused', paused);

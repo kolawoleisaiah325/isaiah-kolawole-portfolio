@@ -57,3 +57,9 @@ Before these changes, the portfolio is tagged `before-project-preview-refresh-20
 `inspect-ai.html` documents the third project: frozen CNN feature extraction, normal-patch memory, ONNX serving and a FastAPI image-inspection API. The full app runs separately from this static portfolio. `assets/inspect-ai-evaluation.json` contains the recorded 83-image benchmark, including the split, per-image scores and both missed contamination cases. Dataset assets are attributed to MVTec AD under CC BY-NC-SA 4.0. PyTorch and FastAPI now carry PROJECT USE labels based on this implementation; Docker remains TO EXPLORE.
 
 Before this feature, the portfolio is tagged `before-inspectai-feature-2026-10-02` (`afbc923`). Revert the feature commit to restore it without resetting shared history.
+
+## Homepage writing and visual update
+
+The homepage uses the confirmed Nile University / 400-level background and describes the three projects in plain language. The decorative canvas is labeled as a visual study; its frame has less glow, and the slogan strip and generic principles have been removed. Versioned asset URLs ensure visitors receive the updated CSS and animation labels.
+
+The previous homepage is saved as `before-personal-copy-2026-10-02` (`763aac1`). Revert the writing and visual update commit to restore it.

@@ -57,7 +57,7 @@ function addContact(label, text, href) {
 }
 if (profile.email) addContact('EMAIL ME', profile.email, 'mailto:' + profile.email);
 if (profile.phone) addContact('GIVE ME A CALL', profile.phone, 'tel:+234' + profile.phone.slice(1));
-if (profile.email) document.querySelector('.contact-caption').textContent = 'Have an idea in mind? Send me an email, give me a call, or explore what I’m building on GitHub.';
+if (profile.email) document.querySelector('.contact-caption').textContent = 'Email, phone, or GitHub—whichever works for you.';
 if (profile.linkedin) addContact('LET’S CONNECT', 'LinkedIn', profile.linkedin);
 
 const sectionObserver = new IntersectionObserver(entries => {
