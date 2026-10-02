@@ -35,3 +35,14 @@ Local AI codebase assistant with an offline bundled example, keyword retrieval, 
 - Includes 20 authored evaluation questions, recorded method comparisons, documented model errors, and automated tests.
 Local engineering prototype. Evaluation on five authored files is not evidence of general repository performance or answer accuracy.
 Case study and source search: https://isaiah-kolawole-portfolio.vercel.app/code-chat.html
+
+
+FEATURED PROJECT: INSPECTAI
+Visual anomaly inspection with frozen pretrained CNN features, normal-patch memory, ONNX CPU inference and FastAPI.
+- Fits on 167 normal images and calibrates on 42 held-out normal images.
+- Compares against a pixel baseline on all 83 official MVTec AD bottle test images.
+- CNN image AUROC 0.9976; missed defects 2/63; normal images flagged 0/20. Both misses are documented.
+- Includes a heatmap overlay and browser history with human review.
+Noncommercial research prototype under CC BY-NC-SA 4.0. Scores are not probabilities; results do not establish performance on arbitrary uploads.
+Tools demonstrated: PyTorch, NumPy, ONNX Runtime, FastAPI, Pillow.
+Case study: https://isaiah-kolawole-portfolio.vercel.app/inspect-ai.html

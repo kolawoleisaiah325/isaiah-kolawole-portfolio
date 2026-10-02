@@ -25,7 +25,7 @@ All records describe fictional facilities. Across 216 expected facility-months, 
 
 Operational filters affect metrics and chart. Record view affects the table and CSV download, including every matching row across pages. Downloads label synthetic data. Forecast scores remain programme-wide: three methods, trained on 2023–2024 and scored on nine complete 2025 months. The same holdout selected the model; independent validation is needed. The website does not run Python, PostgreSQL, or the LLM.
 
-Skills are labeled PROJECT USE or TO EXPLORE based on evidence in the featured project. Project use is not a proficiency rating. The work cards feature one project and two modules. No education, employers, credentials or real-world programme impact are invented.
+Skills are labeled PROJECT USE or TO EXPLORE based on evidence across the featured projects. Project use is not a proficiency rating. The work cards feature three distinct projects. No education, employers, credentials or real-world programme impact are invented.
 
 ## Contact and accessibility
 
@@ -33,7 +33,7 @@ Confirmed email and phone are set in `script.js` and the printable profile. Link
 
 ## Deployment and rollback
 
-Private repository: `kolawoleisaiah325/isaiah-kolawole-portfolio`. Vercel deploys pushes to `main`, using framework **Other**, root `./`, and no build command.
+Repository: `kolawoleisaiah325/isaiah-kolawole-portfolio`. Vercel deploys pushes to `main`, using framework **Other**, root `./`, and no build command.
 
 The version before the October 2 improvements is saved as tag `before-portfolio-improvements-2026-10-02`, commit `2f46fc8`. Restore by reverting the improvement commit(s), reviewing the diff, and pushing the revert to `main`. Preserve subsequent user changes; do not force-push or reset shared history.
 
@@ -41,7 +41,7 @@ The version before the October 2 improvements is saved as tag `before-portfolio-
 
 `code-chat.html` features the second project and a browser-only BM25 search over its authored fictional shop. `assets/code-chat-demo.json` contains actual sample excerpts and the recorded local-model evaluation. `code-chat.js` searches those excerpts and displays recorded outputs without calling an LLM. The gallery and case-study previews are complete captures of the working browser demos. `code-chat-demo.html` presents the same sample search as a dedicated source explorer; the full AI app remains local. Earlier Streamlit captures remain in assets as historical evidence. The case study documents citation limitations and observed model errors.
 
-RAG & Embeddings is now labeled PROJECT USE based on this project. The health project modules are described in its case study, and the main gallery shows two distinct projects.
+RAG & Embeddings is now labeled PROJECT USE based on this project. The health project modules are described in its case study, and the main gallery shows distinct projects.
 
 Before this feature, the portfolio is tagged `before-code-chat-feature-2026-10-02` (`370d4db`). Revert the feature commit to restore that version.
 
@@ -50,3 +50,10 @@ Before this feature, the portfolio is tagged `before-code-chat-feature-2026-10-0
 Project images retain their natural proportions instead of using a fixed aspect ratio with cover cropping. The gallery links to full-size captures, and labels are outside the image. `assets/health-workspace.jpg` includes the complete metrics and service-delivery chart; `assets/code-chat-workspace.jpg` shows the full source-explorer workspace. Both were captured in the browser from working demos.
 
 Before these changes, the portfolio is tagged `before-project-preview-refresh-2026-10-02` (`90f1a77`). Revert the preview-refresh commit to restore that version.
+
+
+## InspectAI feature
+
+`inspect-ai.html` documents the third project: frozen CNN feature extraction, normal-patch memory, ONNX serving and a FastAPI image-inspection API. The full app runs separately from this static portfolio. `assets/inspect-ai-evaluation.json` contains the recorded 83-image benchmark, including the split, per-image scores and both missed contamination cases. Dataset assets are attributed to MVTec AD under CC BY-NC-SA 4.0. PyTorch and FastAPI now carry PROJECT USE labels based on this implementation; Docker remains TO EXPLORE.
+
+Before this feature, the portfolio is tagged `before-inspectai-feature-2026-10-02` (`afbc923`). Revert the feature commit to restore it without resetting shared history.
